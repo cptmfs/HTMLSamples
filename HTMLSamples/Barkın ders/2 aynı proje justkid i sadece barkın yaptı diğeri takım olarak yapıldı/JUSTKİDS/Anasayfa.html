@@ -1,0 +1,189 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JustKids</title>
+    <meta charset="UTF-8">
+    <link href="Anasayfa.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Anasayfa.js"></script>
+</head>
+<header>
+    <div id="lang" class="lang">
+        <a href=""><img src="images/facebookicon.png"></a>
+        <a href=""><img src="images/twittericon.png"></a>
+        <a href=""><img src="images/instagramicon.png"></a>
+        <a href=""><img src="images/LinkedInicon.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><img src="images/eng.png"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href=""><img src="images/turkey.png"></a>
+    </div>
+    <div id="logo" class="logo">
+        <img src="images/logo.png">
+    </div>
+    <div id="menu" class="menu">
+        <div id="m1" class="m1">
+            <a href="Anasayfa.html">Anasayfa</a>
+        </div>
+        <div id="m2" class="m2" >
+            <a href="Hakkımda.html">Hakkımızda</a>
+        </div>
+        <div id="m3" class="m3">
+            <a href="Eğitimler.html">Eğitimler</a>
+        </div>
+        <div id="m4" class="m4">
+            <a href="">Personel</a>
+            <div id="personel_menu" class="personel_menu">
+                <a href="">İdari</a>
+                <a href="">Öğretmen</a>
+            </div>
+        </div>
+        <div id="m5" class="m5">
+            <a href="">İletişim</a>
+        </div>
+        <div id="m6" class="m6">
+            <div id="search" class="search">
+                <div id="search_box" class="search_box">
+                    <input type="text" id="input" class="input" onclick="inInput()" onblur="outInput()" placeholder="Ara..." /> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div id="slider" class="slider">
+        <div id="slider_item active"class="slider_item active"><img src="images/slider1.jpg" /></div>
+        <div id="slider_item"class="slider_item"><img src="images/slider2.jpg" /></div>
+        <div id="slider_item"class="slider_item"><img src="images/slider3.jpg" /></div>
+        <div id="slider_item"class="slider_item"><img src="images/slider4.jpg" /></div>
+        <div id="slider_item"class="slider_item"><img src="images/slider5.png" /></div>
+    </div>
+    <div id="egitim_baslık" class="egitim_baslık" >
+        <b>JustKids Eğitimler ve Atölyeler</b>
+    </div>
+    <div id="egitimler" class="egitimler">
+        <div id="egitim_kapsayıcı" class="egitim_kapsayıcı">
+            <div id="egitim1" class="egitim1">
+                <img src="images/satranc.jpg" />
+                <h3>Çocuklar için Satranç Kursu</h3>
+                <p>Satranç ile En Doğru Hamleni Yap!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+            <div id="egitim2" class="egitim2">
+                <img src="images/kodlama.jpg" />
+                <h3>Çocuklar için Robatik Kodlama</h3>
+                <p>Çocuklar için Robotik Kursu İcat Et!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+            <div id="egitim3" class="egitim3">
+                <img src="images/drama.jpg" />
+                <h3>Çocuklar için Yaratıcı Drama</h3>
+                <p>Sahne Senin!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+            <div id="egitim4" class="egitim4">
+                <img src="images/matematik.jpg" />
+                <h3>Çocuklar İçin Matematik Kursu</h3>
+                <p>Matematik Çok Kolay!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+            <div id="egitim5" class="egitim5">
+                <img src="images/ucdtasarim.png" />
+                <h3>Çocuklar İçin 3D Tasarım</h3>
+                <p>Sanatsal ruh ve yeteneğini geliştir!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+            <div id="egitim6" class="egitim6">
+                <img src="images/resim.jpg" />
+                <h3>Çocuklar İçin Resim Atöylesi</h3>
+                <p>Kendini Serbest Bırak!</p>
+                <a href="" id="detayli-bilgi" class="detayli-bilgi">Detaylı Bilgi</a>
+            </div>
+        </div>
+        <div id="egitim_buton" class="egitim_buton">
+            <a href=""><b>Tümünü Gör</b></a>
+        </div>
+        <div id="iletişim_formu" class="iletişim_formu">
+            <form action="submit-form.php" method="post">
+                <h2>Bize Ulaşın</h2>
+                <p>Aşağıdaki formu doldurun <br>ve temsilcilerimiz sizinle iletişime geçsin.</p><br>
+                <label for="name">Adınız Soyadınız:</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">E-posta adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="subject">Konu:</label>
+                <input type="text" id="subject" name="subject" required>
+              
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" required></textarea>
+              
+                <input type="submit" value="Gönder">
+              </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <div id="partend">
+        <div class="partendeğitimler">
+            <ul class="partendlisteleme1"><h2><a href="JustKids-Egitimler.html">Eğitimler</a></h2>
+                <li><a href="JustKids-Satranc.html">Satranç</a></li>
+                <li><a href="JustKids-Robotik.html">Robotik Kodlama</a></li>
+                <li><a href="JustKids-Drama.html">Yaratıcı Drama</a></li>
+                <li><a href="JustKids-Matematik.html">Matematik</a></li>
+                <li><a href="JustKids-Tasarim.html">3D Tasarım Eğitimi</a></li>
+                <li><a href="JustKids-Resim.html">Resim Atölyesi</a></li>
+            </ul>
+        </div>
+        <div class="partendpersonel">
+            <ul class="partendlisteleme1"><h2><a href="#">Personel</a></h2>
+                <li><a href="JustKids-IdariPersonel.html">İdari Kadro</a></li>
+                <li><a href="JustKids-EgiticiPersonel.html">Öğretmen Kadro</a></li>
+            </ul>
+        </div>
+        <div class="partendkurumsal">
+            <ul class="partendlisteleme1"><h2><a href="#">Kurumsal</a></h2>
+                <li><a href="JustKids-Anasayfa.html">Anasayfa</a></li>
+                <li><a href="JustKids-Hakkımda.html">Hakkımızda</a></li>
+                <li><a href="JustKids-Egitimler.html">Eğitimler</a></li>
+                <li><a href="#">Personel</a></li>
+                <li><a href="JustKids-IletişimSayfası.html">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="partendsosyalmedya">
+            <ul class="partendlisteleme1"><h2><a href="#">Sosyal Medya</a></h2>
+                <li><a href="#">İnstagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="partenddiksosyalmedya">
+            <ul class="partendlisteleme2">
+                <li>
+                    <h2><img src="images/Headphone.png"/><a href="#">Çağrı Merkezi: 0850 320 50 50</a></h2>
+                </li>
+                <br/>
+                <li>
+                    <h2><img src="images/whatsapp.png"/><a href="#">Whatsapp: 0850 320 50 50</a></h2>
+                </li>
+                <br/>
+                <li>
+                    <h2><img src="images/Gmail_icon.png"/><a href="#">E-Posta: justkids@gmail.com</a></h2>
+                </li>
+            </ul>
+        </div>
+        <div class="partendyansosyalmedya">
+            <ul class="partendlisteleme2">
+                <li><a href="#"><img src="images/linkedin.png"/></a></li>
+                <li><a href="#"><img src="images/Instagram_icon.png"/></a></li>
+                <li><a href="#"><img src="images/twitter.png"/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="partendenalt">
+        <br/>
+        <address align="center">Tüm hakları saklıdır. ©2023<br/>www.justkids.com</address>
+    </div>           
+</footer>
+</html>

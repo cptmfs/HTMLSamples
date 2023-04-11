@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Başlık</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+
+	</head>
+	<body>
+		<p>BU BİR DENEME YAZISIDIR.</p>
+		<p>BARKIN</p>
+
+		<table>
+			<thead>
+				<th>isim</th>
+				<th>sisim</th>
+			</thead>
+			<tbody>
+				<tr data-href="https://www.apple.com/tr/shop/buy-iphone/iphone-13/6.1-in%C3%A7-ekran-256gb-mavi">
+					<td>asdasd</td>
+				</tr>
+			</tbody>
+		</table>
+		<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const rows = document.querySelectorAll("tr[data-href]");
+        rows.forEach(row=>{
+            row.addEventListener("click",()=>{
+                window.location.href=row.dataset.href;
+            });
+        });
+    });
+
+    function addJohn(){
+        document.querySelector("tbody").insertAdjacentHTML("beforeend",`
+            <tr data-href="https://www.apple.com/tr/shop/buy-iphone/iphone-13/6.1-in%C3%A7-ekran-256gb-mavi">
+            <td>ferit</td>
+            <td>simsek</td>
+            <td>cptmfs</td>
+            </tr>
+        
+        `);
+        $(document.body).on("click","tr[data-href]",function(){
+            window.location.href=this.dataset.href;
+        }
+    }
+        </script>
+	</body>
+</html>
+

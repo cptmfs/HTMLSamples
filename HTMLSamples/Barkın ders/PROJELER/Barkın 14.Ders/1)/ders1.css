@@ -1,0 +1,26 @@
+
+
+body
+{   
+    font-weight: bold;
+}
+
+
+.bir
+{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;   
+    text-align: justify;
+    /* visibility: hidden;    gizlemek için */
+    /* opacity: 0.75;         saydamlık için */     
+    /* display:none;          sayfadan yerini kaldırır */
+    /* display:block;         blok olarak tutar */
+    
+}
+

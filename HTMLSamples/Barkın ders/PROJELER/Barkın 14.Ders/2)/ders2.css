@@ -1,0 +1,265 @@
+
+
+body
+{
+    padding-top: 30px ;
+    background-image: url('images/arkaplan.jpg');
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* bacground-repeat: repeat;  resim küçükse tekrar etmesi için */
+    /* background-position: top center, top right, top left, center center, center right .... resim pozisyonunu belirler */
+    /* background-attachment: scroll arkaplanın nerede kalacağını , fixed her zaman görünür; */
+    /* background: url('images/arkaplan.jpg') repeat top center fixed;  tüm yazılanları tek satırda yazdık */
+}
+
+.baslık
+{   
+    width: 75%;   
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-left:12,5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 7px 3px green;
+    border-radius: 10px;
+}
+
+.baslıka
+{      
+    width: 70%;
+    background-color: brown;
+    font-size: 30px;   
+    text-align: center;
+    position: relative;
+    float:left;
+    margin-left:15%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    box-shadow: 5px 7px 3px black;
+    border-radius: 10px;
+}
+
+.baslıka h1:first-letter
+{
+    font-size: 90px;
+}
+
+.baslıka:hover
+{
+    background-color: black;
+    cursor: pointer;
+    /* transform: translate(50px,20px);  tıklanabiliri kaydırıyor */
+}
+
+.icerik
+{
+    width: 75%; 
+    height: 100%;   
+    background-color: white;
+    position: relative;
+    float:left;
+    margin-top: 2%;
+    margin-left:12,5%;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    box-shadow: 5px 7px 3px green;
+    border-radius: 10px;  
+}
+
+.icerika
+{     
+    width: 70%;
+    background-color: brown;  
+    text-align: center;
+    margin-left:15%;
+    position: relative; 
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;   
+    box-shadow: 5px 7px 3px black;
+    border-radius: 10px;
+}
+
+.icerika:hover
+{
+    width: 90%;
+}
+
+.icerika h3:active
+{
+    font-size: 50px;
+    color:blue;
+}
+
+.icerika form
+{   
+    text-align: left;
+}
+
+.form_renk:focus
+{
+    background-color: purple;
+    color: rgb(229, 255, 0);
+}
+
+
+.icerikb
+{       
+    width: 70%;
+    background-color: brown;
+    text-align: left;
+    position: relative;
+    float:left;
+    margin-top: 20px;
+    margin-left:15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 7px 3px black;
+    border-radius: 10px;
+}
+
+.icerikb:hover
+{
+    width: 90%;
+}
+
+.icerikb h3:active
+{
+    font-size: 50px;
+    color:blue;
+}
+
+.icerikb h3
+{
+    text-align: center;
+}
+
+.icerikb p
+{
+    text-align: justify;
+}
+
+.icerikb p:first-line
+{
+    font-weight: bold;
+    color:grey;
+}
+
+.icerikb p:last-child
+{
+    font-size: 11px;
+}
+
+.icerikc
+{
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+    color: white;
+    text-align: center; 
+    position: relative;
+    float:left;
+    margin-top: 20px;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 7px 3px black;
+    border-radius: 10px;
+}
+
+.icerikc h2
+{
+    text-shadow: 2px 2px black;
+}
+
+.resim
+{
+    background-color: white;
+    color:brown;
+    width: 90%;
+    height: 100%;
+    margin-left:5%;
+    position: relative;
+    float:left;
+    border-radius: 10px;
+    box-shadow: 5px 7px 3px green;
+    border-radius: 10px;
+}
+
+.resimic
+{
+    width: 20%;
+    height: 100%;
+    /*padding: 10px */
+    position: relative;
+    float:left;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    
+}
+
+.resimic img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.photo_2
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    display: block;
+    opacity: 0;
+    transition: opacity .9s ease-in-out;
+    
+}
+
+.photo_2:hover
+{
+    opacity: 1;
+}
+
+.photo_daha
+{
+    background-color: brown;
+    color:white;
+    width:90%;
+    height:100%;
+    margin-left:5%;
+    position: relative;
+    float:left;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    animation: kutuanimasyon 1.5s infinite ease-in-out alternate;
+    -webkit-animation: kutuanimasyon 5s infinite ease-in-out alternate; 
+}
+
+@keyframes kutuanimasyon
+{
+    from 
+    {
+        background-color: brown;
+    }
+    to 
+    {
+        background-color: black;
+    }
+}
+
+

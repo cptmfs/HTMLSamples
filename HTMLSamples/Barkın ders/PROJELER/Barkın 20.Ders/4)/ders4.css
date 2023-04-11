@@ -1,0 +1,22 @@
+
+
+body 
+{
+
+}
+
+.atlar
+{
+    width: 99%;
+    background-position: center;
+    background-color: green;
+    margin-bottom: 2px;
+}
+
+.atlar img
+{
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+

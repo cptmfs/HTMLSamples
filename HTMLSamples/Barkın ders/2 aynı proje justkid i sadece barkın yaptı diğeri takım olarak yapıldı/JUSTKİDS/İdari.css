@@ -1,0 +1,570 @@
+
+
+header 
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+body 
+{
+    font-family: cursive;
+    overflow-x: hidden ;
+}
+
+.logo img 
+{
+    max-width: 100%;
+}
+
+.lang 
+{
+    position: absolute;
+    top: 15px;
+    right: 15px; 
+}
+
+.lang a 
+{
+    margin-right: 5px;
+}
+
+.lang img 
+{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.lang img:hover 
+{
+    opacity: 0.7;
+}
+
+.logo 
+{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto;
+}
+
+.menu 
+{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a 
+{
+    color: #012780;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover 
+{
+    color: rgb(255, 115, 0);
+    text-decoration: underline;
+}
+
+  
+.m1, .m2, .m3, .m4, .m5, .m6 
+{
+
+    margin-left: 60px;
+}
+  
+.m4 
+{
+    position: relative;
+}
+
+.m4:hover .personel_menu 
+{
+    display: block;
+}
+  
+.personel_menu 
+{
+    display: none;
+}
+  
+.personel_menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #012780;
+    padding: 10px;
+}
+  
+.personel_menu a 
+{
+    display: block;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.m6
+{
+    width: 10%;
+}
+
+.m6 input
+{
+    position: relative;
+    width: 200%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #012780;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.m6.expanded input
+{
+    width:450%;
+    border: 2px solid rgb(255, 115, 0);
+}
+
+.search_box.expanded 
+{
+    width: 1%;
+}
+
+.search 
+{
+    display: flex;
+    align-items: center;
+    
+}
+  
+.search_box
+{
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.search_box input::-webkit-input-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input::-moz-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input:-ms-input-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input:-moz-placeholder 
+{
+    color: #012780;
+}
+.search_box input:focus
+{
+    outline: none;
+    border-color: rgb(255, 115, 0);
+}
+
+
+.container{
+    background: #e0b0ff;
+    margin-bottom: 150px;
+}
+ 
+.our-team{
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #17bebb;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+.egiticikart{
+  background-color: #e0b0ff;
+  margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.egitim_baslik
+{
+    position: relative;
+    top:400px;
+    width: 68%;
+    margin-left:6.7%;
+    margin-right: 5%;
+	margin-bottom: 80px;
+}
+
+.egitim_baslik h2
+{
+    
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:30px;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    background-color: #660099;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    /* text-shadow:  0 0 3px white; */
+}
+
+
+
+.matematik_baslik h1
+{
+    
+    font-family:'Architects Daughter';
+    color: white;
+    background-color: #660099;
+    border-radius: 25px;
+    box-shadow: 0 0 15px black;
+    text-shadow:  0 0 3px #30D5C8;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 50px;
+
+}
+
+
+.matematik_icerik
+{
+    
+    width: 60%;
+    margin-left: 5%;
+}
+
+.matematik_icerik img
+{
+    
+    border-radius: 50px;
+    width: 100%;
+}
+
+
+
+
+
+footer
+{
+    width: 100%;
+    margin-top: 80px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+ 
+#partend
+{
+    width: 99%;
+    height: 30%;
+    display: flex;
+    color: white;
+    background-color: #660099;
+    font-style: initial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+
+} 
+.partendlisteleme1
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.partendlisteleme1 h2
+{
+  margin-bottom: 20px;
+}
+.partendlisteleme1 li
+{
+  margin-top: 2%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+}
+.partendlisteleme1 li:hover
+{
+  font-weight: bold;
+}
+.partendlisteleme2
+{
+  list-style-type: none;
+  padding-left: 0;
+}
+.partendeğitimler
+{
+  margin-left: 5%;
+  width: 30%;
+}
+.partendeğitimler h2
+{
+  font-size: x-large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+	margin-left: 60px;
+}
+.partendpersonel
+{
+  margin-left: 4%;
+  width: 15%;
+}
+.partendpersonel h2
+{
+  font-size: x-large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.partendkurumsal
+{
+  margin-left: 5%;
+  width: 15%;
+}
+.partendkurumsal h2
+{
+    font-size: x-large;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  
+  .partendsosyalmedya{
+    margin-left: 5%;
+    width: 25%;
+  }
+  
+  .partendsosyalmedya h2{
+    font-size: x-large;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  
+  .partenddiksosyalmedya{
+    margin-left: 5%;
+    width: 45%;
+  }
+  
+  .partenddiksosyalmedya h2{
+    font-size: 16px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-bottom: 30px;
+  }
+  
+  .partendyansosyalmedya{
+    margin-left: 5%;
+    width: 10%;
+  }
+  
+  .partendyansosyalmedya img{
+    width: 35%;
+    height: 35%;
+    margin-top: 18%;  
+  }
+  
+  .partendyansosyalmedya img:hover{
+    transform: scale(1.7);
+  }
+  
+  .partenddiksosyalmedya img{
+    width: 10%;
+    height: 10%;
+    text-align: justify;
+    margin-right: 10%;
+  }
+  
+  .partendenalt 
+  {
+      color: #4703A6;
+  }
+
+
+  
+
+
+
+  .container{
+    background: #e0b0ff;
+    margin-bottom: 150px;
+}
+ 
+
+
+
+
+
+
+
+
+.our-team{
+    position: relative;
+    top: 600px;
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    position: relative;
+    top:400px;
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #17bebb;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+.egiticikart{
+  background-color: #9700fc;
+  margin-right: 200px;
+}

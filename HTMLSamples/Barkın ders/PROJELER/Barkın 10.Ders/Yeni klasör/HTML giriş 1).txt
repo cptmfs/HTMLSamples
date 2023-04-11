@@ -1,0 +1,10 @@
+
+
+<html>
+	<head> (sitenin başlığı - mutlaka açıp kapayacağımız etiketler)
+		<title>Başlık</title> (sitenin başlığı - sekme ismini girmek için)
+	</head>
+	<body> (sayfa içeriği - mutlaka açıp kapayacağımız etiketler)
+		<p>Bu bir deneme yazısıdır.</p> (sayfa içeriği - sayfadaki yazılar)
+	</body>
+</html>

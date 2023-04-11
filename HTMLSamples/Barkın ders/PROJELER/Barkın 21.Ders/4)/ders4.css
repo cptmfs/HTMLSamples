@@ -1,0 +1,13 @@
+
+
+td 
+{ 
+    padding:5px;
+}
+
+.kutu
+{
+    background-color: green;
+}
+
+#kutu4, #kutu5, #kutu6 {display:none;}

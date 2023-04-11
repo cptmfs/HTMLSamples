@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+	<div id="container">
+		<header>
+			<center><h2>BARKIN</h2></center>
+		</header>
+		<nav>
+		</nav>
+		<body>
+			<div id ="content">
+			</div>
+		</body>
+		<footer>
+		</footer>	
+	</div>
+	
+</html>

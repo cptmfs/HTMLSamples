@@ -1,0 +1,523 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2489166-01CF-45F0-A3EC-48027538967C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HTMLSamples</RootNamespace>
+    <AssemblyName>HTMLSamples</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Anasayfa.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Anasayfa.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Anasayfa.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Drama.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Drama.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Drama.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Eğitimler.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Eğitimler.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Eğitimler.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Hakkımda.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Hakkımda.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Hakkımda.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\biz-kimiz.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\drama.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\dramagenis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\eng.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\facebookicon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\Gmail_icon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\Headphone.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\instagramicon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\Instagram_icon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\kodlama.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\left-arrow.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\linkedin.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\LinkedInicon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\logo.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\matematik.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\matgenis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\personel1.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\personel2.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\personel3.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\personel4.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\resim.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\resimgenis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\right-arrow.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\robotikgenis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\satranc.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\satranc_genis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\slider1.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\slider2.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\slider3.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\slider4.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\slider5.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\tasarimgenis.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\turkey.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\twitter.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\twittericon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\ucdtasarim.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\vizyon.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\images\whatsapp.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Matematik.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Matematik.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Matematik.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Resim.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Resim.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Resim.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Robotic.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Robotic.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Robotic.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Satranc.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Satranc.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Satranc.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Tasarım.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Tasarım.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\Tasarım.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\İdari.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\İdari.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\JUSTKİDS\İdari.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\hakkımda.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\hakkımda.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\hakkımda.js" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\1.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\2.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\3-2.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\3.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\3D-Pen-Kapak-1200x675.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\4.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\background.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\biz-kimiz.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\Boytheatrecurtain_1400-1.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\buttonImage.svg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\buttonImage2.svg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\Center-Stage-2.2-scaled.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\eng.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\Gmail_icon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\Headphone.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\Instagram_icon.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\linkedin.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\logo.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\matematik.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\mercek.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\post_20221215124933_robotic-02.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\post_20221215125004_sanat.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\post_20221230033555_satranc.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\post_20221230165344_basliksiz-1.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\resim.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\robotik.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\satranc.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider1.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider10.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider11.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider2.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider3.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider4.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider5.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider6.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider7.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider8.jpeg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\slider9.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\tiyatro.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\turkey.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\twitter.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\ucdtasarim.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\vizyon.jpg" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\images\whatsapp.png" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\takım.css" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\takım.html" />
+    <Content Include="Barkın ders\2 aynı proje justkid i sadece barkın yaptı diğeri takım olarak yapıldı\TAKIM\takım.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %282%29\HTML 2%29.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %282%29\HTML 2%29.txt" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\fotoğraflar\thumbs_b_c_fab7c43a6321040f570495d797829430-1.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\yeni 1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\yeni 2.5.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\yeni 2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\yeni 3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör %283%29\yeni 4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör\HTML giriş 1%29.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 10.Ders\Yeni klasör\HTML giriş 1%29.txt" />
+    <Content Include="Barkın ders\PROJELER\Barkın 11.Ders\1%29\yeni 1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 11.Ders\Haber sitesi devam.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 11.Ders\NOT.txt" />
+    <Content Include="Barkın ders\PROJELER\Barkın 11.Ders\TABLO MANTIĞI.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 11.Ders\İçerik biçimlendirme.txt" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\1%29Haber sitesi devam.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\1.txt" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\2%29Haber sitesi devam2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\2%29Özgün.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\3%29İçerik biçimlendirme.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\4%29Sanat sitesi.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\NOT1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\NOT2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 12.Ders\TABLO MANTIĞI.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\1%29\anasayfa.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\1%29\images\logo.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\1%29\style.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2%29\images\logo.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2%29\örnek.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2%29\örnek.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2%29\özgün.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2%29\özgün.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2.0%29\örnek.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\2.0%29\örnek.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\3%29\images\logo.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\3%29\özgün.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 13.Ders\3%29\özgün.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\1%29\ders1.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\1%29\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\2%29\ders2.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\2%29\images\arkaplan.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\2%29\images\clio-1.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 14.Ders\2%29\images\clio-2.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 15.Ders\images\arkaplan.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 15.Ders\images\logo.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 15.Ders\images\mercek.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 15.Ders\son.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 15.Ders\son.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 16.Ders\1%29\ders.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 16.Ders\1%29\ders.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 16.Ders\1%29\images\logo.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 16.Ders\1%29\images\mercek.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 16.Ders\1%29\images\zil.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders1\ders.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders1\ders.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders1\ders.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders2\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders2\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders3\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders3\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders4\ders4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders4\ders4.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders5\ders5.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders5\ders5.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders6\ders6.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders6\ders6.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders6\ders6.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders6\images\Fenerbahçe_SK.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders7\ders7.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 17.Ders\ders7\ders7.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\1%29\ders1.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\1%29\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\1%29\ders1.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\2%29\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\3%29\ders3.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\3%29\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\3%29\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\4%29\ders4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\4%29\ders4.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\5%29\ders5.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\5%29\ders5.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\6%29\ders6.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 18.Ders\6%29\ders6.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\1%29\ders1-2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\1%29\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\1%29\ders1.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\2%29\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\3%29\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\3%29\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\4%29\ders4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\4%29\ders4.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\5%29\ders5.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\5%29\ders5.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\6%29\ders6.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\6%29\ders6.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\7%29\ders7.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\7%29\ders7.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\8%29\ders8.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\8%29\ders8.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\9%29\ders9.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\9%29\ders9.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 19.Ders\9%29\ders9.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\1%29\ders1.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\1%29\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\1%29\ders1.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\2%29\ders2.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\2%29\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\3%29\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\3%29\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\ders4.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\ders4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\ders4.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\images\at1.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\images\at2.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\images\at3.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\images\at4.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 20.Ders\4%29\images\at5.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\ders1.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\ders1.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\images\at1.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\images\at2.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\images\at3.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\images\at4.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\1\images\at5.png" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\2%29\ders2.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\2%29\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\3%29\ders3.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\3%29\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\3%29\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\4%29\ders4.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\4%29\ders4.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 21.Ders\4%29\ders4.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\1%29\ders1.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\1%29\ders1.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\1%29\ders1.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\2%29\ders2.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\2%29\ders2.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\2%29\ders2.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\3%29\ders3.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\3%29\ders3.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\3%29\ders3.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\ders5.css" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\ders5.html" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\ders5.js" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\images\1.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\images\2.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\images\3.jpg" />
+    <Content Include="Barkın ders\PROJELER\Barkın 22.Ders\5%29\images\4.jpg" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\calışma.css" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\calışma.html" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\1.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\11.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\2.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\22.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\3.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\33.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\44.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\55.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\66.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\77.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\88.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\logo.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\mercek.png" />
+    <Content Include="Barkın ders\PROJELER\Code Çalışma - garanti\1%29\images\zil.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\hakkımda.css" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\hakkımda.html" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\hakkımda.js" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\1.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\2.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\3-2.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\3.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\3D-Pen-Kapak-1200x675.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\4.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\background.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\biz-kimiz.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\Boytheatrecurtain_1400-1.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\buttonImage.svg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\buttonImage2.svg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\Center-Stage-2.2-scaled.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\eng.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\Gmail_icon.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\Headphone.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\Instagram_icon.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\linkedin.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\logo.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\matematik.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\mercek.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\post_20221215124933_robotic-02.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\post_20221215125004_sanat.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\post_20221230033555_satranc.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\post_20221230165344_basliksiz-1.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\resim.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\robotik.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\satranc.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider1.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider10.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider11.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider2.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider3.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider4.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider5.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider6.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider7.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider8.jpeg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\slider9.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\tiyatro.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\turkey.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\twitter.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\ucdtasarim.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\vizyon.jpg" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\images\whatsapp.png" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\takım.css" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\takım.html" />
+    <Content Include="Barkın ders\PROJELER\TAKIM\takım.js" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\ödev1.html" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\ödev1.txt" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\ödev2.html" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\ödev2.txt" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\Ödev3.html" />
+    <Content Include="Barkın ders\PROJELER\Çalışma\Ödev3.txt" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Barkın ders\Web.config" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Barkın ders\PROJELER\Barkın 14.Ders\1%29\images\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 17.Ders\ders1\images\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\10%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\5%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\6%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\7%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\8%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 20.Ders\9%29\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 22.Ders\4%29\images\" />
+    <Folder Include="Barkın ders\PROJELER\Barkın 22.Ders\6%29\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61892</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

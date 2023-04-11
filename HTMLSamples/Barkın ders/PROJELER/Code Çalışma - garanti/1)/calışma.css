@@ -1,0 +1,488 @@
+
+
+.üstmenu
+{  
+    width: 100.8%;
+    height: 30px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #949494;
+    margin-top: -8px;
+    margin-left: -8px;
+    justify-content: flex-end;
+}
+
+.üstmenu ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 10%;
+}
+
+.üstmenu li
+{
+    border-right: 1px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight:bold;
+}
+
+.üstmenu img
+{
+    width: 25px;
+}
+
+.ortamenu
+{
+    width: 100.8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.solmenu
+{
+    display: flex;
+    align-items: center;
+    margin-left: 19%;
+}
+
+.solmenu ul
+{
+    list-style: none;
+    display: flex;  
+    margin-left: 40px;
+}
+
+.solmenu li
+{
+    margin-top: -3px;
+    margin-right: 35px;
+    color: #225a8f;
+    font-weight:bold;
+}
+
+.solmenu img
+{
+    width: 200px;
+    height: 35px;
+}
+
+.sagmenu
+{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.sagmenu ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sagmenu li
+{
+    border-right: 1px solid rgb(184, 180, 180);
+    margin-right: 20px;
+    padding-right: 25px; 
+    color: #004481;
+    font-weight:bold;
+}
+
+.sagmenu img
+{
+    width: 35px;
+}
+
+.sagmenu button
+{
+    color: white;
+    background-color: #1f66bd;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-weight:bold;
+}
+
+.altmenu
+{
+    margin-top: 10px;
+    margin-left: 16.2%;
+}
+
+.altmenu ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.altmenu li
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #225a8f;
+    font-weight:bold;
+}
+
+.reklamic
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.reklamic img
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: -7px;
+}
+
+.photo_2
+{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    opacity: 0;
+    transition: opacity .9s ease-in-out;
+    width: 100%;
+    height: 100%;
+    margin-top: -6px;
+}
+
+.photo_2:hover
+{
+    opacity: 1;
+}
+
+.islem
+{
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 4%;
+}
+
+.islem ul
+{
+    list-style: none;
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+
+.islem li
+{
+    position: relative;
+    display: table;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.islem img
+{
+    position: relative;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -60px;
+    
+}
+
+.kredi h1
+{
+    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+}
+
+.kreditürü
+{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.kreditürü h4
+{
+    text-align: center;
+    font-size: larger;
+    color: black;
+    margin-top: 50px;
+    margin-right: 100px;
+    height: 10%;
+}
+
+.kredi-basvuru-alt-sag
+{
+    height: 600px;
+    width: 50%;
+    background-color:#1464a5;
+    color: #fff;
+    float: right;
+}
+
+.kredi-basvuru-alt-sag img
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.kredi-basvuru-alt-sag h4
+{
+  
+    margin-top: 25px;
+    margin-left: 20px;  
+    margin-right: 20px;
+    display: flex;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.taksit-faiz
+{
+    width: 100%;
+}
+.taksit
+{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.faiz
+{
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+  .odeme-plani
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* margin-top: -385px; */
+    margin-left: -50px;
+    margin-top: 220px;
+    margin-bottom: 25px;
+} 
+.odeme-plani img
+{
+    width:25px;
+    height: 20px;
+    background-color: #5ac4c4;
+    margin-right: 10px;
+    float: left;
+}
+
+.kredi-basvuru-alt-sag h5{
+    color: #5ac4c4;
+    font-size: 17px;
+    float: right;
+} 
+
+.button-basvur
+{
+    width: 220px;
+    height: 70px;
+    background-color: #5ac4c4;
+    color: #fff;
+    border: none;
+    margin-left: 30%;
+}
+
+.button-basvur:hover
+{
+    background-position: 0;
+    color: #fff;
+    background-image: linear-gradient(100deg,#0e8181 100%,#004481 0);
+    transition: 5s all ease-in-out;
+    cursor: pointer;
+}
+
+.kredi-basvuru-alt-sol
+{
+    height: 500px;
+    width: 50%;
+    background-color:#fff;
+    float: left;
+}
+.sol-alt-baslik h4
+{
+    text-align: center;
+    font-size: larger;
+    color:black;
+    margin-top: 50px;
+    margin-right:100px ;
+    height: 10%;
+
+}
+
+.sol1
+{
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 20px;
+    height: 30%;
+}
+
+.ihtiyac
+{
+    width: 65px;
+    height: 120px;
+    float: left;
+    margin-right: 120px;
+}
+
+.ihtiyac img
+{   
+   width: 48px;
+   height: 48px; 
+}
+.konut
+{
+    width: 65px;
+    height: 120px;
+    margin-right: 120px;
+
+}
+.konut img
+{   
+    width: 48px;
+    height: 48px; 
+ }
+.tasit
+{
+    width: 65px;
+    height: 120px;
+    float: right;
+}
+.tasit img
+{   
+    width: 48px;
+    height: 48px; 
+ }
+
+ .sol1
+{
+    color: black;
+    margin-top: 20px;
+    height: 30%;
+}
+ .sol2-baslik
+ {
+    display: flex;
+    color: black;
+    font-weight: lighter;
+ }
+ .sol2-baslik p
+ {
+    margin-right: 10px;
+ }
+ .sol2-baslik img{
+    margin-top: 13px;
+ }
+ .sol2-girdi
+ {
+    width: 100%;
+    display: flex;
+    background-color: #d3d3d3;
+ }
+ .sol2-girdi input
+ {
+    width: 70%;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #d3d3d3;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+
+ .sol2-girdi p
+ {
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.3;
+ }
+ .sol2-alt
+ {
+    display: flex;
+    color: black;
+    font-size:large;
+    font-weight: bolder;
+    opacity: 0.3;
+ }
+ .sol2-alt .p1
+ {
+   margin-right: 260px;
+ }
+
+ .sol3-baslik
+ {
+    color: black;
+ }
+ .ay 
+ {
+    width: 85px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 25px ;
+    border-color: #1464a5;
+ }
+ .ay:hover{    cursor: pointer;}
+
+ .ay:active
+ {
+    background-color: #1464a5;
+    cursor: pointer;
+ }
+ 
+ .ay-son
+ {
+    width: 105px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 25px ;
+    border-color: #1464a5;
+ }
+ .ay-son:hover{    cursor: pointer;}
+ .ay-son:active{
+    background-color: #1464a5;
+}
+.sol3-alt
+{
+    color: black;
+    font-size:  96%;
+    margin-right: 17px;
+}

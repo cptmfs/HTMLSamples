@@ -1,0 +1,39 @@
+
+
+<html lang="tr">
+	<head>
+		<title> BARKIN </title>
+	</head>
+	<body>
+		<body bgcolor="black">
+		<body text="white">
+		<body vlink="yellow">
+		<div align="center">
+			<font size=6><pre>
+			
+<img src ="https://miro.medium.com/max/900/1*B0bAVSFygq2-NQZCPC1gGg.jpeg" width="370" height="300"/>
+			
+BAŞLANGIÇLAR
+
+MERCİMEK ÇORBASI
+
+<img src="https://www.pratikevyemekleri.com/wp-content/uploads/2021/12/lokanta-usulu-mercimek-corbasi-scaled.jpeg" width="370" height="300"/>
+
+SALATALAR
+
+MEVSİM SALATASI
+
+<img src="https://bizbayanlar.com/uploads/2017/06/mevsim-salatası-tarifi.jpg" width="370" height="300"/>
+
+ANA YEMEK
+
+KUZU KAFES
+
+<img src="https://media-cdn.tripadvisor.com/media/photo-s/14/a2/f7/f1/meat-chef-in-sanat-eserlerinde.jpg" width="370" height="300"/>
+
+TATLILAR 
+
+ÇİKOLATALI SUFLE
+
+<img src="https://i4.hurimg.com/i/hurriyet/75/1200x675/5c370abe0f25440ee07ea224.jpg" width="370" height="300"/>
+

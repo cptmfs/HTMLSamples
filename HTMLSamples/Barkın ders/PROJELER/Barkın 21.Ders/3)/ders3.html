@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ders2</title>
+        <link href="ders3.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="ders3.js" defer></script>
+    </head>
+    <body>
+        <table border="1" id="tablo" class="tablo">
+            <tr>
+                <th><b>Olayın Adı ve Anlamı</b></th>
+                <th><b>Tetikleyici</b></th>
+                <th><b>Etkilenecek Ögeler</b></th>
+            </tr>
+            <tr>
+                <td>click - Tıklama</td>
+                <td><button id="b1">Tıkla</button></td>
+                <td><p class="metin1"></p></td>
+            </tr>
+            <tr>
+                <td>dbclick - Çift tıklama</td>
+                <td><button id="b2">Çift Tıkla</button></td>
+                <td><p class="metin2"></p></td>
+            </tr>
+            <tr>
+                <td>mouseenter - Fare ile Üzerine Gelme</td>
+                <td><button id="b3">İmleç Üzerimde</button></td>
+                <td><p class="metin3"></p></td>
+            </tr>
+            <tr>
+                <td>mouseleave - Fare üzerinden çekildiğinde</td>
+                <td><button id="b4">İmleç Üzerimden Çekildi</button></td>
+                <td><p class="metin4"></p></td>
+            </tr>  
+            <tr>
+                <td>mousedown - Farenin tuşuna basıldığında</td>
+                <td><button id="b5">Fare tuşuna basıldı</button></td>
+                <td><p class="metin5"></p></td>
+            </tr>
+            <tr>
+                <td>mouseup - Farenin tuşu bırakıldığında</td>
+                <td><button id="b6">Fare Tuşu bırakıldı</button></td>
+                <td><p class="metin6"></p></td>
+            </tr>
+            <tr>
+                <td>hover - mouseenter ve mouseleave olaylarının birleşimi gibi düşünülebilir. Hover olayına iki ayrı fonksiyon bağlanabilir. İlkinde fare üzerine geldiğinde yapılacak şeyler, ikincisinde ise fare terk ettiğinde yapılacak şeyler belirtilir. </td>
+                <td><button id="b7">hover olayı</button></td>
+                <td><p class="metin7"></p></td>
+            </tr>
+            <tr>
+                <td>focus - Odaklama yani bir form elemanına tıklayarak aktif hale getirme</td>
+                <td colspan="2" rowspan="2"><input type="text" name="kutu1" id="kutu1"></td>
+            </tr>
+            <tr>
+                <td>blur - Aktif haldeki form elemanının terk edilmesi(denemek için önce içine sonra başka yere tıklayın)</td>
+            </tr>
+            <tr>
+                <td>resize - Denemek için pencere boyutunu değiştirin.</td>
+                <td colspan="2"><p class="metin8"></p></td>
+            </tr>
+        </table>    
+    </body>
+</html>

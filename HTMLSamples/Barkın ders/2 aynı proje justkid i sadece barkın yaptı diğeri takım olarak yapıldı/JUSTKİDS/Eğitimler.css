@@ -1,0 +1,491 @@
+
+
+header 
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+body 
+{
+    font-family: cursive;
+    overflow-x: hidden ;
+}
+
+img 
+{
+    max-width: 100%;
+}
+
+.lang 
+{
+    position: absolute;
+    top: 15px;
+    right: 15px; 
+}
+
+.lang a 
+{
+    margin-right: 5px;
+}
+
+.lang img 
+{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.lang img:hover 
+{
+    opacity: 0.7;
+}
+
+.logo 
+{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto;
+}
+
+.menu 
+{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a 
+{
+    color: #012780;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover 
+{
+    color: rgb(255, 115, 0);
+    text-decoration: underline;
+}
+
+  
+.m1, .m2, .m3, .m4, .m5, .m6 
+{
+
+    margin-left: 60px;
+}
+  
+.m4 
+{
+    position: relative;
+}
+
+.m4:hover .personel_menu 
+{
+    display: block;
+}
+  
+.personel_menu 
+{
+    display: none;
+}
+  
+.personel_menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #012780;
+    padding: 10px;
+}
+  
+.personel_menu a 
+{
+    display: block;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.m6
+{
+    width: 10%;
+}
+
+.m6 input
+{
+    position: relative;
+    width: 200%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #012780;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.m6.expanded input
+{
+    width:450%;
+    border: 2px solid rgb(255, 115, 0);
+}
+
+.search_box.expanded 
+{
+    width: 1%;
+}
+
+.search 
+{
+    display: flex;
+    align-items: center;
+    
+}
+  
+.search_box
+{
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.search_box input::-webkit-input-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input::-moz-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input:-ms-input-placeholder 
+{
+    color: #012780;
+}
+
+.search_box input:-moz-placeholder 
+{
+    color: #012780;
+}
+.search_box input:focus
+{
+    outline: none;
+    border-color: rgb(255, 115, 0);
+}
+
+
+
+
+
+
+.egitim_baslık 
+{
+    position: relative;
+    text-align: center;
+    align-self: center;
+    width: 30%;
+    height: auto;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #012780 ;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 50% 20% / 10% 40%;
+    left: 35%;
+}
+
+
+.egitimler 
+{   
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.egitim_kapsayıcı 
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.egitim1, .egitim2, .egitim3 
+{
+    flex-basis: 30%;
+    margin-bottom: 90px;
+    margin-left: -30px;
+    margin-right: -30px;
+    width: 100%;
+    height: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 25% 10%;
+    padding: 10px;
+    color: #012780;
+}
+  
+.egitim4, .egitim5, .egitim6 
+{
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    width: 100%;
+    height: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 25% 10%;
+    padding: 10px;
+    color: #012780;
+}
+
+
+.egitim1 img, .egitim2 img, .egitim3 img, .egitim4 img, .egitim5 img, .egitim6 img
+{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10% 25%;
+}
+
+
+.egitim1:hover,
+.egitim2:hover,
+.egitim3:hover,
+.egitim4:hover,
+.egitim5:hover,
+.egitim6:hover {
+  transform: scale(1.1);
+  transform-origin: top center;
+}
+
+
+.egitim1 .detayli-bilgi,
+.egitim2 .detayli-bilgi,
+.egitim3 .detayli-bilgi,
+.egitim4 .detayli-bilgi,
+.egitim5 .detayli-bilgi,
+.egitim6 .detayli-bilgi {
+    display: none;
+}
+
+.egitim1:hover .detayli-bilgi,
+.egitim2:hover .detayli-bilgi,
+.egitim3:hover .detayli-bilgi,
+.egitim4:hover .detayli-bilgi,
+.egitim5:hover .detayli-bilgi,
+.egitim6:hover .detayli-bilgi {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.detayli-bilgi 
+{
+    margin-top: 79%;
+    padding: 10px;
+    background-color: #FF9800;
+    color: #012780;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.detayli-bilgi:hover 
+{
+    background-color: rgb(255, 115, 0);
+}
+
+.egitim_buton 
+{
+    text-align: center;
+    align-self: center;
+    width: 10%;
+    height: 50px;
+    color: #012780 ;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 50px;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 48% 48% 48% 48%;
+}
+
+.egitim_buton a
+{
+    text-decoration:none;
+    color: #012780 ;
+    font-size: 20px;
+    position: relative;
+    top: 13px;
+}
+
+
+
+
+
+
+
+footer
+{
+    width: 100%;
+    /* margin-left: -5%; */
+    margin-top: 200px;
+    font-family:"Comic Sans MS", cursive;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#partend
+{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    float: left;
+    display: flex;
+    color: white;
+    background-color:#012780;
+    font-style: initial;
+    border-radius: 10px;    
+}
+.partendlisteleme1
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.partendlisteleme1 li
+{
+    margin-top: 2%;
+    cursor: pointer;
+}
+.partendlisteleme1 li:hover
+{
+    font-weight: bold;
+}
+.partendlisteleme2
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.partendeğitimler
+{
+    margin-left: 5%;
+    width: 30%;
+}
+.partendeğitimler h2
+{
+    font-size: x-large;
+}
+.partendpersonel
+{
+    margin-left: 4%;
+    width: 15%;
+}
+.partendpersonel h2
+{
+    font-size: x-large;
+}
+.partendkurumsal
+{
+    margin-left: 5%;
+    width: 15%;
+}
+.partendkurumsal h2
+{
+    font-size: x-large;
+}
+.partendsosyalmedya
+{
+    margin-left: 5%;
+    width: 23%;
+}
+.partendsosyalmedya h2
+{
+    font-size: x-large;
+}
+.partenddiksosyalmedya
+{
+    margin-left: 5%;
+    width: 47%;
+}
+.partenddiksosyalmedya h2
+{
+    font-size: large;
+}
+.partendyansosyalmedya
+{
+    margin-left: 5%;
+    width: 10%;
+}
+.partendyansosyalmedya img
+{
+    width: 35%;
+    height: 35%;
+    margin-top: 18%;   
+}
+.partendyansosyalmedya img:hover
+{
+    transform: scale(1.7);
+}
+.partenddiksosyalmedya img
+{
+    width: 10%;
+    height: 10%;
+    text-align: justify;
+    margin-right: 10%;
+    position: relative;
+    float: left;
+}
+.partendenalt 
+{
+    color: #012780;
+}

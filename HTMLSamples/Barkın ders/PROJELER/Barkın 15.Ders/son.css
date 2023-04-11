@@ -1,0 +1,44 @@
+
+
+body
+{
+    background-image: url('images/arkaplan.jpg');
+}
+
+header img
+{
+    width: 5%;
+    padding-top: 20px;
+    padding-left: 20px; 
+    position: relative;
+    float: left;
+}
+
+.arama input
+{
+    width: 550px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 23%;
+    border-radius: 10px;   
+}
+
+.arama button
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: auto;  
+
+}
+
+.arama img
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+
+}
+
+

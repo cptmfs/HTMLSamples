@@ -1,0 +1,79 @@
+
+.menu
+{
+    list-style: none ;
+    margin-left: 100px;
+    height: 100%;
+}
+
+.menu ul
+{
+    width: 45%;
+    position: relative;
+    float: right;
+    margin-right: 3%;
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    column-rule: 1px outset #a0a0a0;
+}
+
+.menu img
+{
+    position: relative;
+    float: left;
+    width: 20px;
+    height: auto;
+}
+
+.menu li
+{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: right;
+    color: #a0a0a0;
+    display: inline;
+}
+
+.logo img
+{
+    margin-top: 4%;
+    margin-left: 12%;
+    width: 200px;
+}
+
+.liste
+{
+    width: 45%;
+    font-size: 20px;
+    position: relative;
+    float: left; 
+    margin-left: 480px;
+    margin-top: -30px;
+    display: inline;
+}
+
+.giriş
+{
+    width: 45%;
+    font-size: 20px;
+    position: relative;
+    float: right;
+    margin-left: 480px;
+    margin-top:-30px;
+    display: inline;
+    
+}
+
+.giriş img
+{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: auto;
+    margin-top: -5px;
+}
