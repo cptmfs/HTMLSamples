@@ -78,15 +78,15 @@ float:right;
 li {
     list-style: none;
     display: inline;
-    margin: 60px;
+    margin: 10px;
     padding: 0px;
 
 }
-    li.liste.li.a {
-        float: left;
-        list-style: none;
-        display: inline;
-        margin: 60px;
-        padding: 0px;
-    }
+.liste {
+list-style:none
+
+}
+.liste .li{
+    display:inline
+}
 
