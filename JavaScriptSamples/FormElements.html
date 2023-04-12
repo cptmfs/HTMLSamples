@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/carpim.js"></script>
+    <script src="js/form.js"></script>
+
+    <style>
+        table, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <input id="txt1" type="text" />
+    <input onclick="tiklamaFunc()" id="btn1" type="button" value="Göster" />&nbsp;&nbsp; <b id="sonuc1""></b>
+    <br />
+    <input id="txt2" type="text" />
+    <input onclick="tiklamaFunc()" id="btn2" type="button" value="Show" />&nbsp;&nbsp; <b id="sonuc2"></b>
+    <br />
+    <input id="txt3" type="text" />
+    <input onclick="arttir()" id="btn3" type="button" value="Arttır" />&nbsp;&nbsp; <b id="sonucArttir"></b>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+    <input onclick="azalt()" id="btn4" type="button" value="Azalt" />&nbsp;&nbsp; <b id="sonucAzalt"></b><br /><br /><br /><br />
+
+    <hr />
+
+    <!-- Ekranda bir buton olsun , basınca ekrana 200px genişliğinde 2 kolon 2 satır  olacak şekilde bir tablo çizsin. Tablonun geriplan rengide gainsboro renginde olursa güzel olur. -->
+    <input onclick="tabloYap()" id="btn5" type="button" value="Tablo Çiz" />&nbsp;&nbsp;<br /><br /><br /><hr /> 
+    <table id="table"></table>
+    <hr />
+
+    <!-- Ekrandan alınan iki sayıyı carpan ve sonucu 3.bir html textbox icine yazan js fonksiyonunu yazınız..
+        Bunun icin tamamen ayrı bir js harici dosyası kullanınız..-->
+   
+    <input id="txt4" type="text" />
+    <input id="txt5" type="text" />
+    <input onclick="carp()" id="btn6" type="button" value="Carp" />
+    <input id="txt6" type="text" />
+        <input onclick="bol()" id="btn7" type="button" value="Bol" />
+    <input id="txt7" type="text" />
+</body>
+</html>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mavi", "Mavi\Mavi.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaviDeneme", "MaviDeneme\MaviDeneme.csproj", "{06F453A6-9207-4A20-833A-284A498D1F32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptSamples", "JavaScriptSamples\JavaScriptSamples.csproj", "{1E07903E-E697-4D76-BE2B-814A1F886AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{06F453A6-9207-4A20-833A-284A498D1F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F453A6-9207-4A20-833A-284A498D1F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F453A6-9207-4A20-833A-284A498D1F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E07903E-E697-4D76-BE2B-814A1F886AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E07903E-E697-4D76-BE2B-814A1F886AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E07903E-E697-4D76-BE2B-814A1F886AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E07903E-E697-4D76-BE2B-814A1F886AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

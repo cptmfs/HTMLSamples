@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript 101</title>
+</head>
+<body>
+    <!-- JavaScript Donuk HTML sayfalarını dinamikleştiren özellikler ekliyor.
+         2 türlü kullanımı var.
+         * Inleni (kod içine yazılan)
+         * Harici (Ayrı bir Js dosyası olusturup onun icine yazılan)
+         Not: Eğer sayfaların daha hızlı açılması isteniyorsa Script blogları son body etiketinin üzerinde tanımlanır..-->
+    <h1>JavaScript dünyasına hoşgeldiniz..</h1>
+    <br />
+    <p id="cptmfs">Ferit Kaptan - Oceangoing Watchkeeping Officer</p>
+    <p id="cptmfsRenk" style="color:red">Ferit Kaptan - Oceangoing Watchkeeping Officer</p>
+    <p id="icerik2"></p>
+
+    <hr />
+    <script>
+        
+    // tek satırlı açıklama aynı c# gibi.
+        /* çok satırlı açıklama */
+        document.write("<h1>hello world</h1>");
+        document.write("<br /><br />");
+        document.write("<h2><i>merhaba dünya</i></h2>");
+        // değişken tanımlama
+        var x = 0, y, toplam = 0;
+
+        x = x + 1;
+        toplam = x;
+        document.write("Toplam sonuç =" + toplam);                
+    </script>
+    <script>
+        //Bloklardan oluşan bir yapıya sahiptir..
+        function topla()
+        {
+            var x, y;
+            var toplam;
+            x = 1, y = 5;
+            toplam = x + y;
+            document.writeln("Toplam Sonucu = " + toplam);
+        }
+    </script>
+    <script>
+        // Büyük küçük harf duyarlıdır. yani x ile X birbirinden farklıdır..
+        var x;
+        var X;
+        x = 5; X = 15;
+        document.writeln("x:" + x);
+        document.writeln("X:" + X);
+    </script>
+    <script>
+        // showmessage gibi
+        alert("Bu bir uyarı mesajıdır...!!")
+    </script>
+
+    <script>
+        // JavaScript tarafından ekrandaki HTML elemanlarına erişim yapılabilir(innerHTML)..
+        var icerik = document.getElementById("cptmfs").innerHTML;
+        var icerik2 = document.getElementById("cptmfsRenk");
+        document.write("<br /><br />");
+        document.write(icerik);
+        icerik2.style.color="blue";
+    </script>
+    <script>
+        var content = "Bu bir cptmfs içeriğidir.";
+        document.getElementById("icerik2").innerHTML = content;
+        
+    </script>
+</body>
+</html>
