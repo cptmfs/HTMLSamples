@@ -84,15 +84,12 @@
     <Content Include="assets\img\mekaangels.png" />
     <Content Include="assets\img\mfs.jpeg" />
     <Content Include="assets\img\netson.png" />
-    <Content Include="assets\img\person_1.jpg" />
-    <Content Include="assets\img\person_1_sq.jpg" />
-    <Content Include="assets\img\person_2.jpg" />
-    <Content Include="assets\img\person_3.jpg" />
     <Content Include="assets\img\pic.jpg" />
     <Content Include="assets\img\pixel.png" />
     <Content Include="assets\img\rare.jpg" />
     <Content Include="assets\img\shinsekai.png" />
     <Content Include="assets\img\shinsekai2.png" />
+    <Content Include="assets\img\software.ico" />
     <Content Include="assets\img\tores.png" />
     <Content Include="assets\img\uglysweater.png" />
     <Content Include="assets\img\uglysweater2.png" />
@@ -137,7 +134,6 @@
     <Content Include="Readme.txt" />
     <Content Include="services.html" />
     <Content Include="Web.config" />
-    <Content Include="work-single.html" />
     <Content Include="works.html" />
   </ItemGroup>
   <ItemGroup>
