@@ -82,6 +82,7 @@
     <Content Include="assets\img\m2.png" />
     <Content Include="assets\img\m4.png" />
     <Content Include="assets\img\mekaangels.png" />
+    <Content Include="assets\img\mfs.jpeg" />
     <Content Include="assets\img\netson.png" />
     <Content Include="assets\img\person_1.jpg" />
     <Content Include="assets\img\person_1_sq.jpg" />
@@ -171,6 +172,7 @@
     <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js.map" />
     <Content Include="assets\vendor\swiper\swiper-bundle.min.js.map" />
     <Content Include="assets\doc\karafuru ıd card.pdf" />
+    <Content Include="assets\doc\MFS_CV.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
