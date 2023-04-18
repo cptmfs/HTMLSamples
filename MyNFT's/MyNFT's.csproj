@@ -135,6 +135,8 @@
     <Content Include="works.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Mail.cs" />
+    <Compile Include="forms\contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
